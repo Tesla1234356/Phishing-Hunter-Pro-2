@@ -1,0 +1,12 @@
+scikit-learn==1.6.1
+joblib==1.5.3
+pandas==2.2.2
+numpy==2.0.2
+requests
+beautifulsoup4
+python-whois
+PyQt6
+opencv-python-headless
+pyzbar
+pytest
+pytest-mock

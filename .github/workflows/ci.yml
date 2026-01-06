@@ -36,4 +36,6 @@ jobs:
     # 4. Correr Pruebas con Pytest
     - name: Run Tests
       run: |
+        echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
         pytest tests/ -v
+

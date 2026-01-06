@@ -1,5 +1,11 @@
 import pytest
 from unittest.mock import MagicMock, patch
+import sys
+import os
+
+# Agregamos la raíz del proyecto al path para que encuentre 'src'
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.extractor import extract_features_v3
 import os
 
